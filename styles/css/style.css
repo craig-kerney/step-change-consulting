@@ -33,6 +33,7 @@ a:focus {
 }
 
 .logo img {
+  width: 100%;
   max-width: 345px;
 }
 
