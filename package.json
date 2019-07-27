@@ -1,0 +1,12 @@
+{
+  "name": "step-change-consulting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch styles/scss/index.scss styles/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

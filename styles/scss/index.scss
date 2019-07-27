@@ -1,0 +1,60 @@
+@import "variables";
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 17px;
+    line-height: 1.47059;
+    letter-spacing: .011em;
+    font-weight: 400;
+    color: $color-font;
+    background-color: $color-off-white;
+    margin: 80px 30px;
+}
+
+a {
+    text-decoration: none;
+    color: $color-link;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    &:focus {
+        outline: 3px solid #c1e0fe;
+        outline-offset: 3px;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.logo  {
+    img {
+        max-width: 345px;
+    }
+}
+
+.welcome {
+    margin-top: 50px;
+
+    .welcome-contact {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 33px;
+
+        &__item {
+            > i {
+                margin-right: 7px;
+                font-size: 19px;
+            }
+        }
+    }
+}
